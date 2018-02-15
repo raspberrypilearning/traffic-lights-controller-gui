@@ -14,7 +14,7 @@
     >>> lights.blink()
     ```
 
-1. Now try blinking the LED at different speeds (the two numbers are (**on time** and **off time**):
+1. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
 
     ```python
     >>> lights.blink(2, 2)
