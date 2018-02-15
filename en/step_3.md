@@ -4,7 +4,7 @@
 
 1. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
 
-  (do not type the chevrons `>>>`)
+    (do not type the chevrons `>>>`)
 
     ```python
     >>> from gpiozero import TrafficLights
