@@ -16,11 +16,11 @@
 
 1. Now try blinking the LED at different speeds (the two numbers are (**on time** and **off time**):
 
-  ```python
-  >>> lights.blink(2, 2)
-  >>> lights.blink(5, 5)
-  >>> lights.blink(0.1, 0.1)
-  ```
+    ```python
+    >>> lights.blink(2, 2)
+    >>> lights.blink(5, 5)
+    >>> lights.blink(0.1, 0.1)
+    ```
 
 1. Now try flashing all three LEDs at different rates:
 
