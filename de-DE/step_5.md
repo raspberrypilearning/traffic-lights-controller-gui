@@ -1,14 +1,14 @@
 ## Herausforderungen
 
-1. Versuchen Sie, die Ein- / Aus-Tasten für alle 3 LEDs zu verwenden und stellen Sie sicher, dass sie im Raster korrekt ausgerichtet sind
+1. Versuche die Ein- / Aus-Tasten für alle 3 LEDs zu verwenden und stelle sicher, dass sie im Raster korrekt ausgerichtet sind
     
     ![](images/guizero-4.png)
 
-2. Versuchen Sie, für jede LED eine Blink-Taste hinzuzufügen
+2. Versuche für jede LED eine Blink-Taste hinzuzufügen
 
-3. Versuchen Sie, Schaltflächen für alle Ein / Alle aus hinzuzufügen
+3. Versuche Schaltflächen für "alle Ein" / "Alle aus" hinzuzufügen
 
-4. Versuchen Sie, Ihre eigene Funktion zu schreiben, um die Ampel-Sequenz zu machen
+4. Versuche eine eigene Funktion zu schreiben, um eine Ampel-Sequenz zu machen
     
     - Verwenden Sie `def sequence ()` und setze den Befehl auf `sequence`
-    - Stellen Sie sicher, dass `aus dem Zeit-Import-Schlaf`
+    - Stelle sicher, dass `from time import sleep` enthalten ist
