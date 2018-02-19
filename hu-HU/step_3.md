@@ -1,31 +1,23 @@
-## Flash the LEDs
+## Vigye a LED-eket
 
-1. Open Python 3 from the main menu.
+1. Nyissa meg a Python 3-at a főmenüből.
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. Adja meg a következő parancsokat, egyenként, a Python héjba, és figyelje a LED-et:
     
-    (do not type the chevrons `>>>`)
+    (ne írja be a chevrons `>>>`)
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>>> a gpiozero importtól TrafficLights>>> lights = TrafficLights (22, 27, 17)>>> lights.on ()>>> lights.off ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. Most próbálja meg villogni a LED-et különböző sebességgel (a két szám: 123_8_0_321 | az időben</strong> és **kikapcsolási idő**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> lights.blink (2, 2)>>> lights.blink (5, 5)>>> lights.blink (0,1, 0,1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. Most próbálja meg villogni mindhárom LED-et különböző sebességgel:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lights.red.blink (1, 1)>>> lights.amber.blink (2, 2)>>> lights.green.blink (3, 3)
 ```
