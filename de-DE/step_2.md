@@ -1,4 +1,4 @@
-## Was wirst du brauchen
+## Was du brauchen wirst
 
 ### Hardware
 
@@ -9,8 +9,8 @@
 
 - `Guizero`
 
-Öffnen Sie ein Terminalfenster und führen Sie den folgenden Befehl aus:
+Öffne ein Terminalfenster und führe den folgenden Befehl aus:
 
 ```bash
-Sudo Pip3 installieren Guizero
+sudo pip3 install guizero
 ```
