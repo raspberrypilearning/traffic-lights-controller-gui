@@ -1,31 +1,23 @@
-## Flash the LEDs
+## Светли светодиоди
 
-1. Open Python 3 from the main menu.
+1. Отворете Python 3 от главното меню.
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. Въведете следните команди, една по една, в черупката на Python и наблюдавайте светодиода:
     
-    (do not type the chevrons `>>>`)
+    (не напишете шевроните `>>>`|
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>| || 123_4_1_321 123_4_2_321 | от gpiozero внос TrafficLights>>> светлини = TrafficLights (22, 27, 17)>>> lights.on ()>>> светлини ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. Сега опитайте да мигате светодиода с различни скорости (двете числа са **навреме** и **| изключено**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>| || 123_4_1_321 123_4_2_321 | lights.blink (2, 2)>>> lights.blink (5, 5)>>> lights.blink (0.1, 0.1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. Сега опитайте да мигате и трите светодиода с различни честоти:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>| || 123_4_1_321 123_4_2_321 | lights.red.blink (1, 1)>>> lights.amber.blink (2, 2)>>> светлини.green.blink (3, 3)
 ```
