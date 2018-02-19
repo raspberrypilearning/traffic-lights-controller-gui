@@ -1,31 +1,23 @@
-## Flash the LEDs
+## LEDをフラッシュする
 
-1. Open Python 3 from the main menu.
+1. メインメニューからPython 3を開きます。
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. 次のコマンドを1つずつPythonシェルに入力し、LEDを観察します。
     
-    (do not type the chevrons `>>>`)
-    
-    ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
-```
-
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+    （シェブロンを入力しないでください`>>>`）
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> gpiozeroからのインポートTrafficLights>>> lights = TrafficLights（22,27,17）>>> lights.on（）>>> lights.off（）>>> lights.blink（）
 ```
 
-4. Now try flashing all three LEDs at different rates:
+3. 異なる速度でLEDを点滅させてみてください（2つの数字は**123_9_1_321 |と**off時間**）：</p> 
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
-```
+>>> lights.blink（2、2）>>> lights.blink（5、5）>>> lights.blink（0.1、0.1）
+```</li> 
+
+- 3つのLEDを異なる速度で点滅させてみましょう。
+    
+    ```python
+>>> lights.red.blink（1,1）>>> lights.amber.blink（2、2）>>> lights.green.blink（3、3）
+```</ol>
