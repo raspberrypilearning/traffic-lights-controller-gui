@@ -1,14 +1,14 @@
-## Challenges
+## चुनौतियां
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. सभी 3 एल ई डी के लिए चालू / बंद बटन जोड़ने की कोशिश करें, यह सुनिश्चित करें कि वे ग्रिड में ठीक से गठबंधन कर रहे हैं
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. प्रत्येक एलईडी के लिए ब्लिंक बटन जोड़ने का प्रयास करें
 
-3. Try adding buttons for all on / all off
+3. सभी के लिए / सभी बंद के लिए बटन जोड़ने का प्रयास करें
 
-4. Try writing your own function to do the traffic lights sequence
+4. ट्रैफ़िक रोशनी क्रम को करने के लिए अपना स्वयं का फ़ंक्शन लिखने का प्रयास करें
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - उपयोग `डीएफ़ अनुक्रम ()` और आदेश को सेट करें `अनुक्रम`
+    - 123_6_0_321 | समय आयात नींद से शामिल करने के लिए सुनिश्चित करें</code>
