@@ -1,15 +1,15 @@
-## What you will need
+## Amire szükséged lesz
 
-### Hardware
+### Hardver
 
 - Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- Traffic Light LED-ek (pl. Pi-stop vagy 3x LED)
 
-### Software
+### Szoftver
 
 - `guizero`
 
-Open a terminal window and run the following command:
+Nyisson meg egy terminál ablakot, és futtassa a következő parancsot:
 
 ```bash
 sudo pip3 install guizero
