@@ -1,14 +1,14 @@
-## Challenges
+## предизвикателства
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. Опитайте да добавите бутоните за включване / изключване на всичките 3 светодиода, като се уверите, че са правилно подравнени в мрежата
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. Опитайте да добавите мигащ бутон за всеки светодиод
 
-3. Try adding buttons for all on / all off
+3. Опитайте да добавите бутони за всички включени / изключени
 
-4. Try writing your own function to do the traffic lights sequence
+4. Опитайте да напишете своя собствена функция, за да направите последователността на светофарите
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - Използвайте `def последователност ()` и задайте командата на `последователност`
+    - Уверете се, че сте включили `от времето за импортиране на време`
