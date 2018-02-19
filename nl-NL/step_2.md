@@ -1,9 +1,9 @@
-## Wat je nodig zult hebben
+## Wat heb je nodig
 
-### Hardware
+### Onderdelen
 
 - Raspberry Pi
-- Verkeerslicht-LED's (bijv. Pi-stop of 3x LED's)
+- Verkeerslicht-LED's (bijv. Pi-stop of 3 LED's met weerstanden)
 
 ### Software
 
@@ -12,5 +12,5 @@
 Open een terminalvenster en voer de volgende opdracht uit:
 
 ```bash
-sudo pip3 guizero installeren
+sudo pip3 install guizero
 ```
