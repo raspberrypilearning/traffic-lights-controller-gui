@@ -1,14 +1,14 @@
-## Challenges
+## 課題
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. 3つすべてのLEDのオン/オフボタンを追加して、グリッドに正しく配置されていることを確認してください
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. LEDごとに点滅ボタンを追加してみてください
 
-3. Try adding buttons for all on / all off
+3. すべてのオン/オフのボタンを追加してみてください
 
-4. Try writing your own function to do the traffic lights sequence
+4. あなた自身の関数を記述して、信号灯シーケンスを実行してみてください
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - `def sequence（）`を使用する|コマンドを`sequence`に設定します。
+    - `を時間インポートスリープから含めるようにしてください`
