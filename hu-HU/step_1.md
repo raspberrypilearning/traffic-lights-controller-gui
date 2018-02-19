@@ -1,9 +1,9 @@
-## Introduction
+## Bevezetés
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+Hozzon létre egy közlekedési lámpa vezérlő GUI-t (grafikus felhasználói felület) GPIO Zero és guizero segítségével.
 
-### What you will make
+### Mit fogsz csinálni?
 
-You will make a GUI to control a set of traffic light LEDs:
+Egy GUI-t fog készíteni a közlekedési lámpa LED-einek vezérlésére:
 
 ![](images/guizero-4.png)
