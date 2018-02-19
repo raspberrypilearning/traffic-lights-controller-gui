@@ -1,9 +1,9 @@
-## Introduction
+## introduction
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+Créez une interface utilisateur graphique de contrôleur de feux de circulation à l'aide de GPIO Zero et de guizero.
 
-### What you will make
+### Ce que tu vas faire
 
-You will make a GUI to control a set of traffic light LEDs:
+Vous allez créer une interface graphique pour contrôler un ensemble de voyants de feux de circulation:
 
 ![](images/guizero-4.png)
