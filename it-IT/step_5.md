@@ -1,14 +1,14 @@
-## Challenges
+## Le sfide
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. Prova ad aggiungere pulsanti on / off per tutti e 3 i LED, assicurandoti che siano allineati correttamente nella griglia
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. Prova ad aggiungere un pulsante lampeggiante per ciascun LED
 
-3. Try adding buttons for all on / all off
+3. Prova ad aggiungere pulsanti per tutti on / all off
 
-4. Try writing your own function to do the traffic lights sequence
+4. Prova a scrivere la tua funzione per fare la sequenza dei semafori
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - Utilizzare `def sequence ()` e impostare il comando su `sequenza`
+    - Assicurati di includere `dall'importazione dell'ora di sospensione`
