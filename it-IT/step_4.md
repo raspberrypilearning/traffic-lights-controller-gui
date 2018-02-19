@@ -1,42 +1,27 @@
-## Create a GUI
+## Crea una GUI
 
-1. Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+1. Apri una nuova finestra e salvala. Ora scriverai il codice in questo file piuttosto che direttamente nella shell.
 
-2. Create a GUI button to turn the red LED on:
+2. Crea un pulsante GUI per accendere il LED rosso:
     
     ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
-
-lights = TrafficLights(22, 27, 17)
-
-app = App()
-
-PushButton(app, command=lights.red.on, text="on")
-
-app.display()
+da guizero import App, Text, PushButton da gpiozero import TrafficLights lights = TrafficLights (22, 27, 17) app = App () PushButton (app, command = lights.red.on, text = "on") app.display ()
 ```
 
 ![](images/guizero-1.png)
 
-3. Add a text label and a second button to turn the red LED off:
+3. Aggiungi un'etichetta di testo e un secondo pulsante per spegnere il LED rosso:
     
     ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+Testo (app, "Rosso") PushButton (app, command = lights.red.on, text = "on") PushButton (app, command = lights.red.off, text = "off")
 ```
 
 ![](images/guizero-2.png)
 
-4. Now give your app a name, and use the grid layout:
+4. Ora dai un nome alla tua app e utilizza il layout della griglia:
     
     ```python
-app = App("Traffic Lights controller", layout="grid")
-
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
+app = App ("Controller semafori", layout = "griglia") Testo (app, "Rosso", griglia = [0, 0]) PushButton (app, command = red.on, text = "on", grid = [0, 1]) PushButton (app, command = red.off, text = "off", grid = [0, 2])
 ```
 
 ![](images/guizero-3.png)
