@@ -25,7 +25,9 @@
 4. Versuche nun, alle drei LEDs mit unterschiedlichen Geschwindigkeiten blinken zu lassen:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lampen.red.blink(1, 1)
+>>> lampen.amber.blink(2, 2)
+>>> lampen.green.blink(3, 3)
+
+Red, amber und green sind Parameter des TrafficLight-APIs und stehen für die Farben rot, gelb und grün.
 ```
