@@ -1,16 +1,16 @@
-## What you will need
+## Was wirst du brauchen
 
 ### Hardware
 
 - Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- Ampel-LEDs (zB Pi-Stop oder 3x LEDs)
 
 ### Software
 
-- `guizero`
+- `Guizero`
 
-Open a terminal window and run the following command:
+Öffnen Sie ein Terminalfenster und führen Sie den folgenden Befehl aus:
 
 ```bash
-sudo pip3 install guizero
+Sudo Pip3 installieren Guizero
 ```
