@@ -1,16 +1,16 @@
-## What you will need
+## آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-- Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- تمشک پی
+- چراغ های ترافیک نور (به عنوان مثال pi-stop یا 3x LED ها)
 
-### Software
+### نرم افزار
 
 - `guizero`
 
-Open a terminal window and run the following command:
+یک پنجره ترمینال را باز کرده و دستور زیر را اجرا کنید:
 
 ```bash
-sudo pip3 install guizero
+sudo pip3 نصب guizero
 ```
