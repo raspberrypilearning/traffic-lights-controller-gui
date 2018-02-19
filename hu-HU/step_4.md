@@ -1,42 +1,27 @@
-## Create a GUI
+## Hozzon létre egy GUI-t
 
-1. Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+1. Nyisson meg egy új ablakot, és mentse el. Így írhatsz kódot ebben a fájlban, nem pedig közvetlenül a shellben.
 
-2. Create a GUI button to turn the red LED on:
+2. Hozzon létre egy GUI gombot a piros LED bekapcsolásához:
     
     ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
-
-lights = TrafficLights(22, 27, 17)
-
-app = App()
-
-PushButton(app, command=lights.red.on, text="on")
-
-app.display()
+a guizero importtól App, Text, PushButton a gpiozero importból TrafficLights lights = TrafficLights app.display () app.display () app = App () PushButton (app, command = lights.red.on, text = "on"
 ```
 
 ![](images/guizero-1.png)
 
-3. Add a text label and a second button to turn the red LED off:
+3. A piros LED kikapcsolásához szöveges címkét és egy második gombot adjon hozzá:
     
     ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+PushButton (app, command = lights.red.on, text = "on") PushButton (app, parancs = lights.red.off, text = "off")
 ```
 
 ![](images/guizero-2.png)
 
-4. Now give your app a name, and use the grid layout:
+4. Most adjon nevet az alkalmazásnak, és használja a rácselrendezést:
     
     ```python
-app = App("Traffic Lights controller", layout="grid")
-
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
+PushButton (app, command = red.on, text = "on", grid = grid = grid = [0, 1]) PushButton (app, command = red.off, szöveg = "kikapcsolva", grid = [0, 2])
 ```
 
 ![](images/guizero-3.png)
