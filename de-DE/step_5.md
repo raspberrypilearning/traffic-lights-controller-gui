@@ -10,5 +10,5 @@
 
 4. Versuche eine eigene Funktion zu schreiben, um eine Ampel-Sequenz zu machen
     
-    - Verwenden Sie `def sequence ()` und setze den Befehl auf `sequence`
+    - Verwenden Sie `def sequence()` und setze den Befehl auf `sequence`
     - Stelle sicher, dass `from time import sleep` enthalten ist
