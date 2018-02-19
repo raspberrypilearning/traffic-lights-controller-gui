@@ -22,9 +22,9 @@ app.display()
 3. Füge eine Textbeschriftung und eine zweite Schaltfläche hinzu, um die rote LED auszuschalten:
     
     ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+Text(app, "Rot")
+PushButton(app, command=lights.red.on, text="ein")
+PushButton(app, command=lights.red.off, text="aus")
 ```
 
 ![](images/guizero-2.png)
@@ -34,9 +34,9 @@ PushButton(app, command=lights.red.off, text="off")
     ```python
 app = App("Traffic Lights controller", layout="grid")
 
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
+Text(app, "Rot", grid=[0, 0])
+PushButton(app, command=red.on, text="ein", grid=[0, 1])
+PushButton(app, command=red.off, text="aus", grid=[0, 2])
 ```
 
 ![](images/guizero-3.png)
