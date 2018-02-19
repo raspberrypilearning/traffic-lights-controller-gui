@@ -1,9 +1,9 @@
-## Introduction
+## introduzione
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+Creare una GUI (graphical user interface) per i semafori utilizzando GPIO Zero e guizero.
 
-### What you will make
+### Cosa farai
 
-You will make a GUI to control a set of traffic light LEDs:
+Farai una GUI per controllare un set di semafori a LED:
 
 ![](images/guizero-4.png)
