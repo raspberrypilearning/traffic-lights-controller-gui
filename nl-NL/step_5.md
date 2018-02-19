@@ -1,14 +1,14 @@
-## Challenges
+## Uitdagingen
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. Probeer het toevoegen van aan / uit-knoppen voor alle 3 LED's, zorg ervoor dat ze goed zijn uitgelijnd in het raster
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. Probeer voor elke led een knipperknop toe te voegen
 
-3. Try adding buttons for all on / all off
+3. Probeer knoppen toe te voegen voor alles aan / uit
 
-4. Try writing your own function to do the traffic lights sequence
+4. Probeer uw eigen functie te schrijven om de reeks verkeerslichten te doen
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - Gebruik `def sequence ()` en stel de opdracht in op `reeks`
+    - Zorg ervoor dat u `uit tijdimport invoegen`
