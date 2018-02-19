@@ -1,9 +1,9 @@
-## Introduction
+## परिचय
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+जीपीआईओ ज़ीरो और गुइज़ोरो का इस्तेमाल करते हुए एक ट्रैफिक लाइट नियंत्रक जीयूआई (ग्राफिकल यूजर इंटरफेस) बनाएं।
 
-### What you will make
+### आप क्या करेंगे
 
-You will make a GUI to control a set of traffic light LEDs:
+आप ट्रैफिक लाइट एल ई डी के एक सेट को नियंत्रित करने के लिए एक GUI बनाएंगे:
 
 ![](images/guizero-4.png)
