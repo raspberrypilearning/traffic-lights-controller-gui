@@ -1,14 +1,14 @@
-## Challenges
+## kihívások
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. Próbálja ki a be- / kikapcsológombokat mindhárom 3 LED számára, ügyelve arra, hogy a hálózatban megfelelően legyenek igazítva
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. Próbáljon meg egy villogó gombot hozzáadni minden egyes LED számára
 
-3. Try adding buttons for all on / all off
+3. Próbálja meg hozzáadni a gombokat mindenkinek ki / be
 
-4. Try writing your own function to do the traffic lights sequence
+4. Próbálja meg a saját funkcióját írni a közlekedési lámpák sorrendjének elvégzéséhez
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - Használjon `def sequence ()` és állítsa a parancsot a `sequence` parancsra
+    - Győződjön meg róla, hogy a `dátumot importáld az alvásból`
