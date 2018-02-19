@@ -1,42 +1,27 @@
-## Create a GUI
+## एक GUI बनाएँ
 
-1. Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+1. एक नई विंडो खोलें और इसे सहेजें। अब आप सीधे इस शेल में कोड की बजाय इस फाइल में कोड लिखेंगे।
 
-2. Create a GUI button to turn the red LED on:
+2. लाल एलईडी को चालू करने के लिए एक GUI बटन बनाएं:
     
     ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
-
-lights = TrafficLights(22, 27, 17)
-
-app = App()
-
-PushButton(app, command=lights.red.on, text="on")
-
-app.display()
+ट्रैफिक लाइट्स = ट्रैफ़िक लाइट्स (22, 27, 17) ऐप = ऐप () पुशबुटटन (ऐप, कमांड = लाइट्स.एड.ऑन, टेक्स्ट = "ऑन") एप डिस्प्ले () से गुइज़ोरो आयात ऐप, पाठ, पुशबूटन से आयात करें
 ```
 
 ![](images/guizero-1.png)
 
-3. Add a text label and a second button to turn the red LED off:
+3. लाल एलईडी बंद करने के लिए एक पाठ लेबल और दूसरा बटन जोड़ें:
     
     ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+पाठ (एप, "रेड") पुशबुटन (ऐप, कमांड = लाइट्स.रेड.ऑन, टेक्स्ट = "ऑन") पुशबूटन (ऐप, कमांड = लाइट्स.एड.ऑफ़, टेक्स्ट = "ऑफ़")
 ```
 
 ![](images/guizero-2.png)
 
-4. Now give your app a name, and use the grid layout:
+4. अब अपने ऐप को एक नाम दें, और ग्रिड लेआउट का उपयोग करें:
     
     ```python
-app = App("Traffic Lights controller", layout="grid")
-
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
+एप = ऐप ("ट्रैफिक लाइट्स कंट्रोलर", लेआउट = "ग्रिड") टेक्स्ट (ऐप, "रेड", ग्रिड = [0, 0]) पुशबुटन (ऐप, कमांड = रेड.ऑन, टेक्स्ट = "चालू", ग्रीड = [0, 1]) पुशबुटन (ऐप, कमांड = रेड.ऑफ़, टेक्स्ट = "ऑफ", ग्रिड = [0, 2])
 ```
 
 ![](images/guizero-3.png)
