@@ -1,31 +1,23 @@
-## Flash the LEDs
+## Clignote les LED
 
-1. Open Python 3 from the main menu.
+1. Ouvrez Python 3 depuis le menu principal.
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. Entrez les commandes suivantes, une par une, dans le shell Python et observez le voyant:
     
-    (do not type the chevrons `>>>`)
+    (ne pas taper les chevrons `>>>`)
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>>> à partir de gpiozero import TrafficLights>>> feux = feux de circulation (22, 27, 17)>>> lights.on ()>>> lights.off ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. Maintenant, essayez de faire clignoter la LED à différentes vitesses (les deux chiffres sont **à l'heure** et **off time**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> lights.blink (2, 2)>>> lights.blink (5, 5)>>> lights.blink (0.1, 0.1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. Essayez maintenant de faire clignoter les trois voyants à des vitesses différentes:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lights.red.blink (1, 1)>>> lights.amber.blink (2, 2)>>> lights.green.blink (3, 3)
 ```
