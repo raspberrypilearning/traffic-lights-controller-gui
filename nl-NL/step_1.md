@@ -1,9 +1,9 @@
-## Introduction
+## Invoering
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+Creëer een GUI voor verkeerslichten (grafische gebruikersinterface) met GPIO Zero en guizero.
 
-### What you will make
+### Wat ga je maken?
 
-You will make a GUI to control a set of traffic light LEDs:
+U maakt een GUI om een ​​set van verkeerslicht-LED's te besturen:
 
 ![](images/guizero-4.png)
