@@ -1,24 +1,24 @@
 ---
-title: Make a Traffic Lights Controller GUI
-hero_image: images/banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
-theme: red
+title: Maak een grafische gebruikersinterface voor verkeerslichten
+hero_image: images / banner.png
+description: Creëer een GUI voor verkeerslichten (grafische gebruikersinterface) met GPIO Zero en guizero.
+theme: rood
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
 curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
+interests: "fysiek computergebruik"
+technologies: "elektronica, fysieke computergebruik, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Invoering
   - 
-    title: What you will need
+    title: Wat je nodig zult hebben
   - 
-    title: Flash the LEDs
+    title: Flits de leds
   - 
-    title: Create a GUI
+    title: Maak een GUI
   - 
-    title: Challenges
+    title: Uitdagingen
