@@ -1,31 +1,23 @@
-## Flash the LEDs
+## फ्लैश एल ई डी
 
-1. Open Python 3 from the main menu.
+1. मुख्य मेनू से अजगर 3 को खोलें।
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. पायथन खोल में निम्न आदेश, एक-एक-एक, दर्ज करें और एलईडी का पालन करें:
     
-    (do not type the chevrons `>>>`)
+    (चेवर्ण टाइप नहीं करें `>>>`)
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>>> जीपीओजेरो आयात ट्रैफिक लाइट्स से>>> रोशनी = ट्रैफ़िक लाइट्स (22, 27, 17)>>> lights.on ()>>> रोशनी.ऑफ ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. अब अलग गति पर एलईडी को पलक की कोशिश करें (दो नंबर हैं **समय पर** और **बंद समय**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> रोशनी। ब्लिंक (2, 2)>>> रोशनी। ब्लिंक (5, 5)>>> रोशनी। ब्लिंक (0.1, 0.1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. अब विभिन्न दरों पर सभी तीन एल ई डी को फ्लैश करने की कोशिश करें:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lights.red.blink (1, 1)>>> रोशनी.एम्बर.ब्लंक (2, 2)>>> lights.green.blink (3, 3)
 ```
