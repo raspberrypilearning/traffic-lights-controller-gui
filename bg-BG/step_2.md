@@ -1,16 +1,16 @@
-## What you will need
+## Какво ще ви трябва
 
-### Hardware
+### железария
 
-- Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- Малина Пи
+- Светодиоди за светофар (напр. Пи-стоп или 3x светодиоди)
 
-### Software
+### Софтуер
 
 - `guizero`
 
-Open a terminal window and run the following command:
+Отворете терминален прозорец и изпълнете следната команда:
 
 ```bash
-sudo pip3 install guizero
+sudo pip3 инсталирате guizero
 ```
