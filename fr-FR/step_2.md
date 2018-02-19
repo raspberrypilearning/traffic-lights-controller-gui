@@ -1,16 +1,16 @@
-## What you will need
+## Ce dont tu auras besoin
 
-### Hardware
+### Matériel
 
-- Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- Tarte aux framboises
+- Voyants de feux de circulation (p. Ex., Pi-stop ou DEL 3x)
 
-### Software
+### Logiciel
 
 - `guizero`
 
-Open a terminal window and run the following command:
+Ouvrez une fenêtre de terminal et exécutez la commande suivante:
 
 ```bash
-sudo pip3 install guizero
+sudo pip3 installer guizero
 ```
