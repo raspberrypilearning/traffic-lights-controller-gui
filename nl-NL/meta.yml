@@ -7,17 +7,17 @@ duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmeren-0, computer techniek-0
-interests: "fysiek computergebruik"
-technologies: "elektronica, fysieke computergebruik, python"
+curriculum: programmeren-0, computer gebruik-0
+interests: "computergebruik"
+technologies: "elektronica, computergebruik, python"
 site_areas: ""
 steps:
   - 
-    title: Invoering
+    title: Intruductie
   - 
-    title: Wat je nodig zult hebben
+    title: Wat heb je nodig
   - 
-    title: Flits de leds
+    title: Laat de leds knipperen
   - 
     title: Maak een GUI
   - 
