@@ -6,9 +6,9 @@
 
 2. Probeer voor elke led een knop voor knipperen toe te voegen
 
-3. Probeer knoppen toe te voegen voor alles aan / uit
+3. Probeer knoppen toe te voegen om alles tegelijkertijd aan/uit/te laten knipperen
 
-4. Probeer uw eigen functie te schrijven om de reeks verkeerslichten te doen
+4. Probeer je eigen functie te schrijven om de verkeerslichten te laten werken
     
-    - Gebruik `def sequence ()` en stel de opdracht in op `reeks`
-    - Zorg ervoor dat u `uit tijdimport invoegen`
+    - Gebruik `def sequence ()` en stel commande in op `sequence` (reeks)
+    - Zorg ervoor dat je `from time import sleep` toevoegd
