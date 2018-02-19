@@ -1,42 +1,27 @@
-## Create a GUI
+## Създайте GUI
 
-1. Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+1. Отворете нов прозорец и го запишете. Сега ще пишете код в този файл, а не директно в черупката.
 
-2. Create a GUI button to turn the red LED on:
+2. Създайте бутон GUI, за да включите червения светодиод:
     
     ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
-
-lights = TrafficLights(22, 27, 17)
-
-app = App()
-
-PushButton(app, command=lights.red.on, text="on")
-
-app.display()
+от ипотека за импортиране на приложения, текстови, PushButton от импортиране на gpiozero TrafficLights светлини = TrafficLights (22, 27, 17) app = App () PushButton (app,
 ```
 
 ![](images/guizero-1.png)
 
-3. Add a text label and a second button to turn the red LED off:
+3. Добавете текстов етикет и втори бутон, за да изключите червения светодиод:
     
     ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+Текст (app, "червен") PushButton (приложение, команда = lights.red.on, текст = "on") PushButton (приложение, команда = светлини.изкл.
 ```
 
 ![](images/guizero-2.png)
 
-4. Now give your app a name, and use the grid layout:
+4. Сега дайте на приложението си име и използвайте оформлението на решетката:
     
     ```python
-app = App("Traffic Lights controller", layout="grid")
-
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
+app = App ("Traffic Lights controller", оформление = "решетка") Текст (app, "червен", grid = [0, 0] [0, 1]) PushButton (приложение, команда = червено, текст = "изключено", решетка = [0, 2])
 ```
 
 ![](images/guizero-3.png)
