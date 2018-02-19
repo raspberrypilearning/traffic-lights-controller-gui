@@ -1,14 +1,14 @@
-## Challenges
+## چالش ها
 
-1. Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+1. سعی کنید با اضافه کردن دکمه های روشن / خاموش برای تمام 3 LED، اطمینان حاصل کنید که آنها به درستی در شبکه تنظیم شده اند
     
     ![](images/guizero-4.png)
 
-2. Try adding a blink button for each LED
+2. سعی کنید یک دکمه چشمک زدن برای هر LED اضافه کنید
 
-3. Try adding buttons for all on / all off
+3. سعی کنید دکمه ها را برای همه روشن / خاموش کنید
 
-4. Try writing your own function to do the traffic lights sequence
+4. سعی کنید تابع خود را برای انجام دنباله چراغ راهنمایی بنویسید
     
-    - Use `def sequence()` and set the command to `sequence`
-    - Make sure to include `from time import sleep`
+    - استفاده از `توالی def ()` و دستور را به `دنباله`
+    - مطمئن شوید که `از زمان وارد کردن خواب`
