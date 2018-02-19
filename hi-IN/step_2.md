@@ -1,16 +1,16 @@
-## What you will need
+## तुम क्या आवश्यकता होगी
 
-### Hardware
+### हार्डवेयर
 
-- Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- रास्पबेरी पाई
+- यातायात प्रकाश एल ई डी (जैसे पी-स्टॉप या 3x एल ई डी)
 
-### Software
+### सॉफ्टवेयर
 
 - `guizero`
 
-Open a terminal window and run the following command:
+एक टर्मिनल विंडो खोलें और निम्न कमांड चलाएं:
 
 ```bash
-sudo pip3 install guizero
+सुडो पीपी 3 इंस्टॉल करें
 ```
