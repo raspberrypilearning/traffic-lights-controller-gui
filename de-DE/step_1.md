@@ -1,9 +1,9 @@
-## Einführung
+## Einleitung
 
-Erstellen Sie eine Ampel-Controller-GUI (grafische Benutzeroberfläche) mit GPIO Zero und Guizero.
+Erstelle ein Ampel-Controller-GUI (grafische Benutzeroberfläche) mit GPIO Zero und Guizero.
 
-### Was wirst du machen?
+### Was du machen wirst
 
-Sie werden eine GUI erstellen, um eine Reihe von Ampel-LEDs zu steuern:
+Du wirst ein GUI erstellen, um eine Gruppe von Ampel-LEDs zu steuern:
 
 ![](images/guizero-4.png)
