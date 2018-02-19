@@ -29,10 +29,14 @@ PushButton(app, command=lights.red.off, text="uit")
 
 ![](images/guizero-2.png)
 
-4. Geef uw app nu een naam en gebruik de rasterlay-out:
+4. Geef je app nu een naam en gebruik de raster indeling:
     
     ```python
-app = App ("Verkeerslichtcontroller", layout = "raster") Tekst (app, "Rood", raster = [0, 0]) PushButton (app, opdracht = red.on, text = "on", raster = [0, 1]) PushButton (app, opdracht = red.off, text = "off", grid = [0, 2])
+app = App("Traffic Lights controller", layout="grid")
+
+Text(app, "Rood", grid=[0, 0])
+PushButton(app, command=red.on, text="aan", grid=[1, 0])
+PushButton(app, command=red.off, text="uit", grid=[2, 0])
 ```
 
 ![](images/guizero-3.png)
