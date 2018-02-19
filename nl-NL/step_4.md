@@ -1,11 +1,20 @@
 ## Maak een GUI
 
-1. Open een nieuw venster en sla het op. Nu zul je code in dit bestand schrijven in plaats van direct in de shell.
+1. Open een nieuw venster en sla het op. Je gaat nu code in dit bestand schrijven in plaats van direct in de shell.
 
 2. Maak een GUI-knop om de rode LED aan te zetten:
     
     ```python
-from guizero import App, Text, PushButton from gpiozero importen TrafficLights lights = TrafficLights (22, 27, 17) app = App () PushButton (app, opdracht = lights.red.on, text = "on") app.display ()
+from guizero import App, Text, PushButton
+from gpiozero import TrafficLights
+
+lights = TrafficLights(22, 27, 17)
+
+app = App()
+
+PushButton(app, command=lights.red.on, text="aan")
+
+app.display()
 ```
 
 ![](images/guizero-1.png)
@@ -13,7 +22,9 @@ from guizero import App, Text, PushButton from gpiozero importen TrafficLights l
 3. Voeg een tekstlabel en een tweede knop toe om de rode led uit te schakelen:
     
     ```python
-Tekst (app, "Rood") PushButton (app, opdracht = lights.red.on, text = "on") PushButton (app, opdracht = lights.red.off, text = "off")
+Text(app, "Rood")
+PushButton(app, command=lights.red.on, text="aan")
+PushButton(app, command=lights.red.off, text="uit")
 ```
 
 ![](images/guizero-2.png)
