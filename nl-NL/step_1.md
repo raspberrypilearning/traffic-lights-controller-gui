@@ -1,9 +1,9 @@
-## Invoering
+## Introductie
 
-Creëer een GUI voor verkeerslichten (grafische gebruikersinterface) met GPIO Zero en guizero.
+Creëer een GUI (grafische gebruikersinterface) voor een verkeerslicht met GPIO Zero en guizero.
 
 ### Wat ga je maken?
 
-U maakt een GUI om een ​​set van verkeerslicht-LED's te besturen:
+Je maakt een GUI om lampen (LED's) van een verkeerslicht te besturen:
 
 ![](images/guizero-4.png)
