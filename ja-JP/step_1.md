@@ -1,9 +1,9 @@
-## Introduction
+## 前書き
 
-Create a traffic lights controller GUI (graphical user interface) using GPIO Zero and guizero.
+GPIO Zeroとguizeroを使用して、信号機コントローラGUI（グラフィカルユーザインタフェース）を作成します。
 
-### What you will make
+### あなたが作るもの
 
-You will make a GUI to control a set of traffic light LEDs:
+トラフィックライトLEDのセットを制御するためのGUIを作成します。
 
 ![](images/guizero-4.png)
