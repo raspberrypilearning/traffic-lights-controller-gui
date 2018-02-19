@@ -1,31 +1,23 @@
-## Flash the LEDs
+## چراغ های فلش
 
-1. Open Python 3 from the main menu.
+1. پایتون 3 را از منوی اصلی باز کنید.
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. دستورات زیر را به صورت یک به یک در پوسته پایتون وارد کنید و LED را مشاهده کنید:
     
-    (do not type the chevrons `>>>`)
+    (شویرون را تایپ نکنید `>>>`)
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>>> از gpiozero import TrafficLights>>> چراغ = TrafficLights (22، 27، 17)>>> lights.on ()>>> lights.off ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. در حال حاضر سعی کنید چشمک زدن LED در سرعت های مختلف (دو عدد هستند **در زمان** و **خاموش زمان**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> lights.blink (2، 2)>>> lights.blink (5، 5)>>> lights.blink (0.1، 0.1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. در حال حاضر تمام سه LED با سرعت های مختلف فلاش بزنید:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lights.red.blink (1، 1)>>> lights.amber.blink (2، 2)>>> lights.green.blink (3، 3)
 ```
