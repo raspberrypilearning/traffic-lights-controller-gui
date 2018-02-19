@@ -1,15 +1,15 @@
-## What you will need
+## あなたが必要とするもの
 
-### Hardware
+### ハードウェア
 
-- Raspberry Pi
-- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
+- ラズベリーパイ
+- トラフィックライトLED（例：pi-stopまたは3x LED）
 
-### Software
+### ソフトウェア
 
-- `guizero`
+- `ギゼイロ`
 
-Open a terminal window and run the following command:
+ターミナルウィンドウを開き、次のコマンドを実行します。
 
 ```bash
 sudo pip3 install guizero
