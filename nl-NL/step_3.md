@@ -1,31 +1,23 @@
-## Flash the LEDs
+## Flits de leds
 
-1. Open Python 3 from the main menu.
+1. Open Python 3 vanuit het hoofdmenu.
 
-2. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+2. Voer de volgende commando's één voor één in de Python-shell in en observeer de LED:
     
-    (do not type the chevrons `>>>`)
+    (typ niet de chevrons `>>>`)
     
     ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+>>> from gpiozero import TrafficLights>>> lights = TrafficLights (22, 27, 17)>>> lights.on ()>>> lights.off ()>>> lights.blink ()
 ```
 
-3. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+3. Probeer nu de LED met verschillende snelheden te knipperen (de twee nummers zijn **op tijd** en **uitschakeltijd**):
     
     ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+>>> lights.blink (2, 2)>>> lights.blink (5, 5)>>> lights.blink (0.1, 0.1)
 ```
 
-4. Now try flashing all three LEDs at different rates:
+4. Probeer nu alle drie de LED's met verschillende snelheden te knipperen:
     
     ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+>>> lights.red.blink (1, 1)>>> lights.amber.blink (2, 2)>>> lights.green.blink (3, 3)
 ```
