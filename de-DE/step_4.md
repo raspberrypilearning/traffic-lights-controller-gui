@@ -32,11 +32,11 @@ PushButton(app, command=lampen.red.off, text="aus")
 4. Gib deiner App einen Namen und verwende das Rasterlayout:
     
     ```python
-app = App("Traffic Lights controller", layout="grid")
+app = App("Ampel-Steuerung", layout="grid")
 
 Text(app, "Rot", grid=[0, 0])
-PushButton(app, command=red.on, text="ein", grid=[0, 1])
-PushButton(app, command=red.off, text="aus", grid=[0, 2])
+PushButton(app, command=lampen.red.on, text="ein", grid=[0, 1])
+PushButton(app, command=lampen.red.off, text="aus", grid=[0, 2])
 ```
 
 ![](images/guizero-3.png)
