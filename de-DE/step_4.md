@@ -23,8 +23,8 @@ app.display()
     
     ```python
 Text(app, "Rot")
-PushButton(app, command=lights.red.on, text="ein")
-PushButton(app, command=lights.red.off, text="aus")
+PushButton(app, command=lampen.red.on, text="ein")
+PushButton(app, command=lampen.red.off, text="aus")
 ```
 
 ![](images/guizero-2.png)
