@@ -8,7 +8,7 @@
 
 3. Versuche Schaltflächen für "alle Ein" / "Alle aus" hinzuzufügen
 
-4. Versuche eine eigene Funktion zu schreiben, um eine Ampel-Sequenz zu machen
+4. Versuche eine eigene Funktion zu schreiben, um einen Ampel-Ablauf zu machen
     
-    - Verwenden Sie `def sequence()` und setze den Befehl auf `sequence`
+    - Verwende `def sequence()` und setze den Befehl auf `sequence`
     - Stelle sicher, dass `from time import sleep` enthalten ist
