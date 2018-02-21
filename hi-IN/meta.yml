@@ -1,0 +1,24 @@
+---
+title: एक आवागमन रोशनी नियंत्रक जीयूआई बनाओ
+hero_image: छवियों / banner.png
+description: जीपीआईओ ज़ीरो और गुइज़ोरो का इस्तेमाल करते हुए एक ट्रैफिक लाइट नियंत्रक जीयूआई (ग्राफिकल यूजर इंटरफेस) बनाएं।
+theme: लाल
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: प्रोग्रामिंग -0, फिज़-कंप-0
+interests: "शारीरिक कंप्यूटिंग"
+technologies: "इलेक्ट्रॉनिक्स, भौतिक कंप्यूटिंग, अजगर"
+site_areas: ""
+steps:
+  - 
+    title: परिचय
+  - 
+    title: तुम क्या आवश्यकता होगी
+  - 
+    title: फ्लैश एल ई डी
+  - 
+    title: एक GUI बनाएँ
+  - 
+    title: चुनौतियां

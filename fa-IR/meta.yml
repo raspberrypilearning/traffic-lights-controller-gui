@@ -1,0 +1,24 @@
+---
+title: رابط گرافیکی کنترل کننده چراغ راهنمایی
+hero_image: images / banner.png
+description: GUI کنترلر گرافیکی ترافیک (رابط کاربر گرافیکی) با استفاده از GPIO Zero و guizero ایجاد کنید.
+theme: سرخ
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0، phys-comp-0
+interests: "محاسبات فیزیکی"
+technologies: "الکترونیک، محاسبات فیزیکی، پایتون"
+site_areas: ""
+steps:
+  - 
+    title: معرفی
+  - 
+    title: آنچه شما نیاز دارید
+  - 
+    title: چراغ های فلش
+  - 
+    title: ایجاد یک رابط کاربری گرافیکی
+  - 
+    title: چالش ها

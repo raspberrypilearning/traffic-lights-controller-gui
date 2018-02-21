@@ -1,0 +1,24 @@
+---
+title: Maak een grafische weergave voor een verkeerslicht
+hero_image: afbeeldingen / banner.png
+description: Maak een GUI (graphical user interface=grafische gebruikersinterface) voor een verkeerslicht met GPIO Zero en guizero.
+theme: rood
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programmeren-0, computer gebruik-0
+interests: "computergebruik"
+technologies: "elektronica, computergebruik, python"
+site_areas: ""
+steps:
+  - 
+    title: Intruductie
+  - 
+    title: Wat heb je nodig
+  - 
+    title: Laat de leds knipperen
+  - 
+    title: Maak een GUI
+  - 
+    title: Uitdagingen

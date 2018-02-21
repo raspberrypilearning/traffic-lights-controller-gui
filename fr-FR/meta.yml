@@ -1,0 +1,24 @@
+---
+title: Faire une interface graphique du contrôleur de feux de circulation
+hero_image: images / banner.png
+description: Créez une interface utilisateur graphique de contrôleur de feux de circulation à l'aide de GPIO Zero et de guizero.
+theme: rouge
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programmation-0, phys-comp-0
+interests: "informatique physique"
+technologies: "électronique, informatique physique, python"
+site_areas: ""
+steps:
+  - 
+    title: introduction
+  - 
+    title: Ce dont tu auras besoin
+  - 
+    title: Clignote les LED
+  - 
+    title: Créer une interface graphique
+  - 
+    title: Défis

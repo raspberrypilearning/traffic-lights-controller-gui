@@ -1,0 +1,24 @@
+---
+title: Erstelle ein Ampel-Controller-GUI
+hero_image: images/banner.png
+description: Erstelle ein Ampel-Controller-GUI (grafische Benutzeroberfläche) mit GPIO Zero und Guizero.
+theme: red
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "electronics, physical computing, python"
+site_areas: ""
+steps:
+  - 
+    title: Einleitung
+  - 
+    title: Was du brauchen wirst
+  - 
+    title: Lass die LEDs blinken
+  - 
+    title: Erstelle ein GUI
+  - 
+    title: Herausforderungen

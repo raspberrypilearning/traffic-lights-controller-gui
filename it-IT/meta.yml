@@ -1,0 +1,24 @@
+---
+title: Crea una GUI del controller del semaforo
+hero_image: images / banner.png
+description: Creare una GUI (graphical user interface) per i semafori utilizzando GPIO Zero e guizero.
+theme: rosso
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: programmazione-0, compatta-0
+interests: "calcolo fisico"
+technologies: "elettronica, calcolo fisico, pitone"
+site_areas: ""
+steps:
+  - 
+    title: introduzione
+  - 
+    title: Di cosa avrai bisogno
+  - 
+    title: Flash i LED
+  - 
+    title: Crea una GUI
+  - 
+    title: Le sfide
