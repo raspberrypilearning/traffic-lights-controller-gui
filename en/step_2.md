@@ -2,12 +2,15 @@
 
 ### Hardware
 
-+ List hardware here, or delete section.
+- Raspberry Pi
+- Traffic Light LEDs (e.g. pi-stop or 3x LEDs)
 
 ### Software
 
-+ List software here, or delete section.
+- `guizero`
 
-### Additional Resources
+Open a terminal window and run the following command:
 
-+ List additional resources, or delete section.
+```bash
+sudo pip3 install guizero
+```
