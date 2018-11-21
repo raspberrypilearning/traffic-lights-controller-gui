@@ -1,31 +1,58 @@
-## Flash the LEDs
+## Create a GUI
 
-1. Open Python 3 from the main menu.
+--- task ---
 
-1. Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
 
-    (do not type the chevrons `>>>`)
+--- /task ---
 
-    ```python
-    >>> from gpiozero import TrafficLights
-    >>> lights = TrafficLights(22, 27, 17)
-    >>> lights.on()
-    >>> lights.off()
-    >>> lights.blink()
-    ```
+--- task ---
 
-1. Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+Create a GUI button to turn the red LED on:
 
-    ```python
-    >>> lights.blink(2, 2)
-    >>> lights.blink(5, 5)
-    >>> lights.blink(0.1, 0.1)
-    ```
+```python
+from guizero import App, Text, PushButton
+from gpiozero import TrafficLights
 
-1. Now try flashing all three LEDs at different rates:
+lights = TrafficLights(22, 27, 17)
 
-    ```python
-    >>> lights.red.blink(1, 1)
-    >>> lights.amber.blink(2, 2)
-    >>> lights.green.blink(3, 3)
-    ```
+app = App()
+
+PushButton(app, command=lights.red.on, text="on")
+
+app.display()
+```
+
+![](images/guizero-1.png)
+
+--- /task ---
+
+--- task ---
+
+Add a text label and a second button to turn the red LED off:
+
+```python
+Text(app, "Red")
+PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lights.red.off, text="off")
+```
+
+![](images/guizero-2.png)
+
+--- /task ---
+
+--- task ---
+
+Now give your app a name, and use the grid layout:
+
+```python
+app = App("Traffic Lights controller", layout="grid")
+
+Text(app, "Red", grid=[0, 0])
+PushButton(app, command=lights.red.on, text="on", grid=[1, 0])
+PushButton(app, command=lights.red.off, text="off", grid=[2, 0])
+```
+
+![](images/guizero-3.png)
+
+--- /task ---
