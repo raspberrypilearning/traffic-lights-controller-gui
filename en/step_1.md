@@ -15,9 +15,10 @@ title: What you will need
     - pi-stop traffic light board
     - or 3x LEDs and resistors
 
-You'll need to install guizero. Open a Terminal window and type the following command:
+You'll need to install Mu and guizero. Open a Terminal window and type the following command:
 
 ```bash
+sudo apt install mu-editor
 sudo pip3 install guizero
 ```
 
@@ -32,5 +33,19 @@ title: What you will learn
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
 - Creating an interactive graphical user interface with Python
+
+--- /collapse ---
+
+--- collapse ---
+
+---
+title: Information for Jam organisers
+---
+
+--- no-print ---
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-Controller-GUI.pdf) is available. Please observe any notes on this page before printing.
+
+--- /no-print ---
 
 --- /collapse ---
