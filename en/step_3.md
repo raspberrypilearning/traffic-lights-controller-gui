@@ -2,7 +2,7 @@
 
 --- task ---
 
-Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+Close the REPL. Now you'll write code into a file rather than directly in the shell.
 
 --- /task ---
 
