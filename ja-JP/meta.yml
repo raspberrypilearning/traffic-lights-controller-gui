@@ -1,24 +1,17 @@
 ---
-title: トラフィックライトコントローラのGUIを作成する
+title: Traffic Lights Controller GUI
 hero_image: images / banner.png
-description: GPIO Zeroとguizeroを使用して、信号機コントローラGUI（グラフィカルユーザインタフェース）を作成します。
-theme: 赤
-duration: 2
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: プログラミング-0、phys-comp-0
-interests: "物理計算"
-technologies: "エレクトロニクス、物理計算機、Python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: 前書き
   - 
-    title: あなたが必要とするもの
+    title: Flash the LEDs
   - 
-    title: LEDをフラッシュする
+    title: Create a GUI
   - 
-    title: GUIの作成
-  - 
-    title: 課題
+    title: Challenges
