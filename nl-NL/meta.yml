@@ -1,24 +1,17 @@
 ---
-title: Maak een grafische weergave voor een verkeerslicht
-hero_image: afbeeldingen / banner.png
-description: Maak een GUI (graphical user interface=grafische gebruikersinterface) voor een verkeerslicht met GPIO Zero en guizero.
-theme: rood
-duration: 2
+title: Traffic Lights Controller GUI
+hero_image: images/banner.png
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programmeren-0, computer gebruik-0
-interests: "computergebruik"
-technologies: "elektronica, computergebruik, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
-    title: Intruductie
+    title: Inleiding
   - 
-    title: Wat heb je nodig
+    title: Flash the LEDs
   - 
-    title: Laat de leds knipperen
+    title: Create a GUI
   - 
-    title: Maak een GUI
-  - 
-    title: Uitdagingen
+    title: Challenges
