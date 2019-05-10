@@ -1,27 +1,30 @@
-## GUIの作成
+## Challenges
 
-1. 新しいウィンドウを開き、保存します。 これで、シェル内で直接ではなく、このファイルにコードを記述します。
+\--- task \---
 
-2. 赤色LEDをオンにするGUIボタンを作成します。
-    
-    ```python
-guizeroからの読み込みgpiozeroからのApp、Text、PushButtonからの読み込みTrafficLightsのlight = TrafficLights（22,27,17）app = App（）PushButton（app、command = lights.red.on、text = "on"）app.display（）
-```
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-![](images/guizero-1.png)
+![](images/guizero-4.png)
 
-3. 赤いLEDを消すには、テキストラベルと2番目のボタンを追加します。
-    
-    ```python
-PushButton（app、command = lights.red.off、text = "off"）テキスト（app、 "Red"）PushButton（app、command = lights.red.on、text = "on"）
-```
+\--- /task \---
 
-![](images/guizero-2.png)
+\--- task \---
 
-4. 今度はあなたのアプリに名前をつけ、グリッドレイアウトを使用してください：
-    
-    ```python
-（アプリケーション、コマンド= red.on、テキスト= "オ​​ン"、グリッド= "グリッド"）テキスト（アプリケーション、 "赤"、グリッド= [0、0] [0、1]）PushButton（app、command = red.off、text = "off"、grid = [0、2]）
-```
+Try adding a blink button for each LED
 
-![](images/guizero-3.png)
+\--- /task \---
+
+\--- task \---
+
+Try adding buttons for all on / all off
+
+\--- /task \---
+
+\--- task \---
+
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
