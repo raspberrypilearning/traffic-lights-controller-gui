@@ -1,23 +1,58 @@
-## Vigye a LED-eket
+## Create a GUI
 
-1. Nyissa meg a Python 3-at a főmenüből.
+\--- task \---
 
-2. Adja meg a következő parancsokat, egyenként, a Python héjba, és figyelje a LED-et:
-    
-    (ne írja be a chevrons `>>>`)
-    
-    ```python
->>> a gpiozero importtól TrafficLights>>> lights = TrafficLights (22, 27, 17)>>> lights.on ()>>> lights.off ()>>> lights.blink ()
+Close the REPL. Now you'll write code into a file rather than directly in the shell.
+
+\--- /task \---
+
+\--- task \---
+
+Create a GUI button to turn the red LED on:
+
+```python
+from guizero import App, Text, PushButton
+from gpiozero import TrafficLights
+
+lights = TrafficLights(22, 27, 17)
+
+app = App()
+
+PushButton(app, command=lights.red.on, text="on")
+
+app.display()
 ```
 
-3. Most próbálja meg villogni a LED-et különböző sebességgel (a két szám: 123_8_0_321 | az időben</strong> és **kikapcsolási idő**):
-    
-    ```python
->>> lights.blink (2, 2)>>> lights.blink (5, 5)>>> lights.blink (0,1, 0,1)
+![](images/guizero-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add a text label and a second button to turn the red LED off:
+
+```python
+Text(app, "Red")
+PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lights.red.off, text="off")
 ```
 
-4. Most próbálja meg villogni mindhárom LED-et különböző sebességgel:
-    
-    ```python
->>> lights.red.blink (1, 1)>>> lights.amber.blink (2, 2)>>> lights.green.blink (3, 3)
+![](images/guizero-2.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now give your app a name, and use the grid layout:
+
+```python
+app = App("Traffic Lights controller", layout="grid")
+
+Text(app, "Red", grid=[0, 0])
+PushButton(app, command=lights.red.on, text="on", grid=[1, 0])
+PushButton(app, command=lights.red.off, text="off", grid=[2, 0])
 ```
+
+![](images/guizero-3.png)
+
+\--- /task \---
