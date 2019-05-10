@@ -1,42 +1,30 @@
-## Erstellen Sie ein GUI
+## Challenges
 
-1. Öffne ein neues Fenster und speichere es. Jetzt schreibst du Code in diese Datei anstatt direkt in die Shell.
+\--- task \---
 
-2. Erstelle eine GUI-Schaltfläche, um die rote LED einzuschalten:
-    
-    ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-lampen = TrafficLights(22, 27, 17)
+![](images/guizero-4.png)
 
-app = App()
+\--- /task \---
 
-PushButton(app, command=lampen.red.on, text="ein")
+\--- task \---
 
-app.display()
-```
+Try adding a blink button for each LED
 
-![](images/guizero-1.png)
+\--- /task \---
 
-3. Füge eine Textbeschriftung und eine zweite Schaltfläche hinzu, um die rote LED auszuschalten:
-    
-    ```python
-Text(app, "Rot")
-PushButton(app, command=lampen.red.on, text="ein")
-PushButton(app, command=lampen.red.off, text="aus")
-```
+\--- task \---
 
-![](images/guizero-2.png)
+Try adding buttons for all on / all off
 
-4. Gib deiner App einen Namen und verwende das Rasterlayout:
-    
-    ```python
-app = App("Ampel-Steuerung", layout="grid")
+\--- /task \---
 
-Text(app, "Rot", grid=[0, 0])
-PushButton(app, command=lampen.red.on, text="ein", grid=[0, 1])
-PushButton(app, command=lampen.red.off, text="aus", grid=[0, 2])
-```
+\--- task \---
 
-![](images/guizero-3.png)
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
