@@ -1,27 +1,30 @@
-## Създайте GUI
+## Challenges
 
-1. Отворете нов прозорец и го запишете. Сега ще пишете код в този файл, а не директно в черупката.
+\--- task \---
 
-2. Създайте бутон GUI, за да включите червения светодиод:
-    
-    ```python
-от ипотека за импортиране на приложения, текстови, PushButton от импортиране на gpiozero TrafficLights светлини = TrafficLights (22, 27, 17) app = App () PushButton (app,
-```
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-![](images/guizero-1.png)
+![](images/guizero-4.png)
 
-3. Добавете текстов етикет и втори бутон, за да изключите червения светодиод:
-    
-    ```python
-Текст (app, "червен") PushButton (приложение, команда = lights.red.on, текст = "on") PushButton (приложение, команда = светлини.изкл.
-```
+\--- /task \---
 
-![](images/guizero-2.png)
+\--- task \---
 
-4. Сега дайте на приложението си име и използвайте оформлението на решетката:
-    
-    ```python
-app = App ("Traffic Lights controller", оформление = "решетка") Текст (app, "червен", grid = [0, 0] [0, 1]) PushButton (приложение, команда = червено, текст = "изключено", решетка = [0, 2])
-```
+Try adding a blink button for each LED
 
-![](images/guizero-3.png)
+\--- /task \---
+
+\--- task \---
+
+Try adding buttons for all on / all off
+
+\--- /task \---
+
+\--- task \---
+
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
