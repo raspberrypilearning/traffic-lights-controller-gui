@@ -1,27 +1,30 @@
-## एक GUI बनाएँ
+## Challenges
 
-1. एक नई विंडो खोलें और इसे सहेजें। अब आप सीधे इस शेल में कोड की बजाय इस फाइल में कोड लिखेंगे।
+\--- task \---
 
-2. लाल एलईडी को चालू करने के लिए एक GUI बटन बनाएं:
-    
-    ```python
-ट्रैफिक लाइट्स = ट्रैफ़िक लाइट्स (22, 27, 17) ऐप = ऐप () पुशबुटटन (ऐप, कमांड = लाइट्स.एड.ऑन, टेक्स्ट = "ऑन") एप डिस्प्ले () से गुइज़ोरो आयात ऐप, पाठ, पुशबूटन से आयात करें
-```
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-![](images/guizero-1.png)
+![](images/guizero-4.png)
 
-3. लाल एलईडी बंद करने के लिए एक पाठ लेबल और दूसरा बटन जोड़ें:
-    
-    ```python
-पाठ (एप, "रेड") पुशबुटन (ऐप, कमांड = लाइट्स.रेड.ऑन, टेक्स्ट = "ऑन") पुशबूटन (ऐप, कमांड = लाइट्स.एड.ऑफ़, टेक्स्ट = "ऑफ़")
-```
+\--- /task \---
 
-![](images/guizero-2.png)
+\--- task \---
 
-4. अब अपने ऐप को एक नाम दें, और ग्रिड लेआउट का उपयोग करें:
-    
-    ```python
-एप = ऐप ("ट्रैफिक लाइट्स कंट्रोलर", लेआउट = "ग्रिड") टेक्स्ट (ऐप, "रेड", ग्रिड = [0, 0]) पुशबुटन (ऐप, कमांड = रेड.ऑन, टेक्स्ट = "चालू", ग्रीड = [0, 1]) पुशबुटन (ऐप, कमांड = रेड.ऑफ़, टेक्स्ट = "ऑफ", ग्रिड = [0, 2])
-```
+Try adding a blink button for each LED
 
-![](images/guizero-3.png)
+\--- /task \---
+
+\--- task \---
+
+Try adding buttons for all on / all off
+
+\--- /task \---
+
+\--- task \---
+
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
