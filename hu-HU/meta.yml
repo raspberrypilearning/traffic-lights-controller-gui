@@ -1,24 +1,17 @@
 ---
-title: Készítsen Traffic Lights Controller GUI-t
+title: Traffic Lights Controller GUI
 hero_image: images / banner.png
-description: Hozzon létre egy közlekedési lámpa vezérlő GUI-t (grafikus felhasználói felület) GPIO Zero és guizero segítségével.
-theme: piros
-duration: 2
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programozás-0, fizikai-comp-0
-interests: "fizikai számítástechnika"
-technologies: "elektronika, fizikai számítástechnika, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Bevezetés
   - 
-    title: Amire szükséged lesz
+    title: Flash the LEDs
   - 
-    title: Vigye a LED-eket
+    title: Create a GUI
   - 
-    title: Hozzon létre egy GUI-t
-  - 
-    title: kihívások
+    title: Challenges
