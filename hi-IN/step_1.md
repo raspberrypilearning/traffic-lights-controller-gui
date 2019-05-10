@@ -1,9 +1,51 @@
-## परिचय
+## भूमिका
 
-जीपीआईओ ज़ीरो और गुइज़ोरो का इस्तेमाल करते हुए एक ट्रैफिक लाइट नियंत्रक जीयूआई (ग्राफिकल यूजर इंटरफेस) बनाएं।
-
-### आप क्या करेंगे
-
-आप ट्रैफिक लाइट एल ई डी के एक सेट को नियंत्रित करने के लिए एक GUI बनाएंगे:
+Create a traffic lights controller GUI (graphical user interface) using Python
 
 ![](images/guizero-4.png)
+
+\--- collapse \---
+
+* * *
+
+## title: What you will need
+
+- Raspberry Pi computer
+- LEDs: 
+    - pi-stop traffic light board
+    - or 3x LEDs and resistors
+
+You'll need to install Mu and guizero. Open a Terminal window and type the following command:
+
+```bash
+sudo apt install mu-editor
+sudo pip3 install guizero
+```
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: What you will learn
+
+- Controlling your Raspberry Pi's GPIO pins using Python
+- Using LEDs with your Raspberry Pi
+- Creating an interactive graphical user interface with Python
+
+\--- /collapse \---
+
+\--- collapse \---
+
+* * *
+
+## title: Information for Jam organisers
+
+\--- no-print \---
+
+If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-GUI.pdf) is available. Please observe any notes on this page before printing.
+
+\--- /no-print \---
+
+\--- /collapse \---
