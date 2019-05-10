@@ -1,24 +1,17 @@
 ---
-title: Crea una GUI del controller del semaforo
-hero_image: images / banner.png
-description: Creare una GUI (graphical user interface) per i semafori utilizzando GPIO Zero e guizero.
-theme: rosso
-duration: 2
+title: Traffic Lights Controller GUI
+hero_image: images/banner.png
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programmazione-0, compatta-0
-interests: "calcolo fisico"
-technologies: "elettronica, calcolo fisico, pitone"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
-    title: introduzione
+    title: Introduzione
   - 
-    title: Di cosa avrai bisogno
+    title: Flash the LEDs
   - 
-    title: Flash i LED
+    title: Create a GUI
   - 
-    title: Crea una GUI
-  - 
-    title: Le sfide
+    title: Challenges
