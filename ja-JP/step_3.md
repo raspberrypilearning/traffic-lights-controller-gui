@@ -1,23 +1,58 @@
-## LEDをフラッシュする
+## Create a GUI
 
-1. メインメニューからPython 3を開きます。
+\--- task \---
 
-2. 次のコマンドを1つずつPythonシェルに入力し、LEDを観察します。
-    
-    （シェブロンを入力しないでください`>>>`）
-    
-    ```python
->>> gpiozeroからのインポートTrafficLights>>> lights = TrafficLights（22,27,17）>>> lights.on（）>>> lights.off（）>>> lights.blink（）
+Close the REPL. Now you'll write code into a file rather than directly in the shell.
+
+\--- /task \---
+
+\--- task \---
+
+Create a GUI button to turn the red LED on:
+
+```python
+from guizero import App, Text, PushButton
+from gpiozero import TrafficLights
+
+lights = TrafficLights(22, 27, 17)
+
+app = App()
+
+PushButton(app, command=lights.red.on, text="on")
+
+app.display()
 ```
 
-3. 異なる速度でLEDを点滅させてみてください（2つの数字は**123_9_1_321 |と**off時間**）：</p> 
-    
-    ```python
->>> lights.blink（2、2）>>> lights.blink（5、5）>>> lights.blink（0.1、0.1）
-```</li> 
+![](images/guizero-1.png)
 
-- 3つのLEDを異なる速度で点滅させてみましょう。
-    
-    ```python
->>> lights.red.blink（1,1）>>> lights.amber.blink（2、2）>>> lights.green.blink（3、3）
-```</ol>
+\--- /task \---
+
+\--- task \---
+
+Add a text label and a second button to turn the red LED off:
+
+```python
+Text(app, "Red")
+PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lights.red.off, text="off")
+```
+
+![](images/guizero-2.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now give your app a name, and use the grid layout:
+
+```python
+app = App("Traffic Lights controller", layout="grid")
+
+Text(app, "Red", grid=[0, 0])
+PushButton(app, command=lights.red.on, text="on", grid=[1, 0])
+PushButton(app, command=lights.red.off, text="off", grid=[2, 0])
+```
+
+![](images/guizero-3.png)
+
+\--- /task \---
