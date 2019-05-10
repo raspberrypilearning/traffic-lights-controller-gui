@@ -1,31 +1,58 @@
-## Laat de leds knopperen
+## Create a GUI
 
-1. Open vanuit het hoofdmenu Python 3.
+\--- task \---
 
-2. Voer de volgende commando's in de Python-shell één voor één in en observeer de LED's:
-    
-    (typ de chevrons `>>>` niet in)
-    
-    ```python
->>> from gpiozero import TrafficLights
->>> lights = TrafficLights(22, 27, 17)
->>> lights.on()
->>> lights.off()
->>> lights.blink()
+Close the REPL. Now you'll write code into a file rather than directly in the shell.
+
+\--- /task \---
+
+\--- task \---
+
+Create a GUI button to turn the red LED on:
+
+```python
+from guizero import App, Text, PushButton
+from gpiozero import TrafficLights
+
+lights = TrafficLights(22, 27, 17)
+
+app = App()
+
+PushButton(app, command=lights.red.on, text="on")
+
+app.display()
 ```
 
-3. Probeer nu de LED's met verschillende snelheden te laten knipperen, de twee nummers zijn **on time** (tijd aan) en **off time**( tijd uit):
-    
-    ```python
->>> lights.blink(2, 2)
->>> lights.blink(5, 5)
->>> lights.blink(0.1, 0.1)
+![](images/guizero-1.png)
+
+\--- /task \---
+
+\--- task \---
+
+Add a text label and a second button to turn the red LED off:
+
+```python
+Text(app, "Red")
+PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lights.red.off, text="off")
 ```
 
-4. Probeer nu alle drie de LED's met verschillende snelheden te laten knipperen:
-    
-    ```python
->>> lights.red.blink(1, 1)
->>> lights.amber.blink(2, 2)
->>> lights.green.blink(3, 3)
+![](images/guizero-2.png)
+
+\--- /task \---
+
+\--- task \---
+
+Now give your app a name, and use the grid layout:
+
+```python
+app = App("Traffic Lights controller", layout="grid")
+
+Text(app, "Red", grid=[0, 0])
+PushButton(app, command=lights.red.on, text="on", grid=[1, 0])
+PushButton(app, command=lights.red.off, text="off", grid=[2, 0])
 ```
+
+![](images/guizero-3.png)
+
+\--- /task \---
