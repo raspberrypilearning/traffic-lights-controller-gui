@@ -1,24 +1,17 @@
 ---
-title: Направете GUI контролер за осветление на трафика
+title: Traffic Lights Controller GUI
 hero_image: изображения / banner.png
-description: Създайте GUI контролер (графичен потребителски интерфейс), като използвате GPIO Zero и guizero.
-theme: червен
-duration: 2
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: програмиране-0, phys-comp-0
-interests: "физически изчисления"
-technologies: "електроника, физически изчисления, питон"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Въведение
   - 
-    title: Какво ще ви трябва
+    title: Flash the LEDs
   - 
-    title: Светли светодиоди
+    title: Create a GUI
   - 
-    title: Създайте GUI
-  - 
-    title: предизвикателства
+    title: Challenges
