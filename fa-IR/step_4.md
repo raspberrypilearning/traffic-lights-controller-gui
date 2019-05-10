@@ -1,27 +1,30 @@
-## ایجاد یک رابط کاربری گرافیکی
+## Challenges
 
-1. یک پنجره جدید را باز کنید و آن را ذخیره کنید. حالا کد را در این فایل بجای مستقیما در shell قرار دهید.
+\--- task \---
 
-2. دکمه GUI را برای روشن کردن LED قرمز ایجاد کنید:
-    
-    ```python
-از برنامه importion guizero، Text، PushButton از import gpiozero TrafficLights lights = TrafficLights (22، 27، 17) app = App () PushButton (app، command = lights.red.on، text = "on") app.display ()
-```
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-![](images/guizero-1.png)
+![](images/guizero-4.png)
 
-3. یک برچسب متن و یک دکمه دوم برای خاموش کردن LED قرمز اضافه کنید:
-    
-    ```python
-متن (برنامه، "قرمز") PushButton (app، command = lights.red.on، text = "on") PushButton (app، command = lights.red.off، text = "off")
-```
+\--- /task \---
 
-![](images/guizero-2.png)
+\--- task \---
 
-4. اکنون برنامه خود را نامگذاری کنید و از طرح شبکه استفاده کنید:
-    
-    ```python
-(برنامه، "قرمز"، شبکه = [0، 0]) PushButton (app، command = red.on، text = "on"، grid = [0، 1]) PushButton (app، command = red.off، text = "off"، grid = [0، 2])
-```
+Try adding a blink button for each LED
 
-![](images/guizero-3.png)
+\--- /task \---
+
+\--- task \---
+
+Try adding buttons for all on / all off
+
+\--- /task \---
+
+\--- task \---
+
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
