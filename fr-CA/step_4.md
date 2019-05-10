@@ -1,42 +1,30 @@
-## Create a GUI
+## Challenges
 
-1. Open a new window and save it. Now you'll write code in this file rather than directly in the shell.
+\--- task \---
 
-2. Create a GUI button to turn the red LED on:
-    
-    ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-lights = TrafficLights(22, 27, 17)
+![](images/guizero-4.png)
 
-app = App()
+\--- /task \---
 
-PushButton(app, command=lights.red.on, text="on")
+\--- task \---
 
-app.display()
-```
+Try adding a blink button for each LED
 
-![](images/guizero-1.png)
+\--- /task \---
 
-3. Add a text label and a second button to turn the red LED off:
-    
-    ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
-```
+\--- task \---
 
-![](images/guizero-2.png)
+Try adding buttons for all on / all off
 
-4. Now give your app a name, and use the grid layout:
-    
-    ```python
-app = App("Traffic Lights controller", layout="grid")
+\--- /task \---
 
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=red.on, text="on", grid=[0, 1])
-PushButton(app, command=red.off, text="off", grid=[0, 2])
-```
+\--- task \---
 
-![](images/guizero-3.png)
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
