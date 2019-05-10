@@ -1,24 +1,17 @@
 ---
-title: Erstelle ein Ampel-Controller-GUI
+title: Traffic Lights Controller GUI
 hero_image: images/banner.png
-description: Erstelle ein Ampel-Controller-GUI (grafische Benutzeroberfläche) mit GPIO Zero und Guizero.
-theme: red
-duration: 2
+description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "electronics, physical computing, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Einleitung
   - 
-    title: Was du brauchen wirst
+    title: Flash the LEDs
   - 
-    title: Lass die LEDs blinken
+    title: Create a GUI
   - 
-    title: Erstelle ein GUI
-  - 
-    title: Herausforderungen
+    title: Challenges
