@@ -1,42 +1,30 @@
-## Maak een GUI
+## Challenges
 
-1. Open een nieuw venster en sla het op. Je gaat nu code in dit bestand schrijven in plaats van direct in de shell.
+\--- task \---
 
-2. Maak een GUI-knop om de rode LED aan te zetten:
-    
-    ```python
-from guizero import App, Text, PushButton
-from gpiozero import TrafficLights
+Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
 
-lights = TrafficLights(22, 27, 17)
+![](images/guizero-4.png)
 
-app = App()
+\--- /task \---
 
-PushButton(app, command=lights.red.on, text="aan")
+\--- task \---
 
-app.display()
-```
+Try adding a blink button for each LED
 
-![](images/guizero-1.png)
+\--- /task \---
 
-3. Voeg een tekstlabel en een tweede knop toe om de rode led uit te schakelen:
-    
-    ```python
-Text(app, "Rood")
-PushButton(app, command=lights.red.on, text="aan")
-PushButton(app, command=lights.red.off, text="uit")
-```
+\--- task \---
 
-![](images/guizero-2.png)
+Try adding buttons for all on / all off
 
-4. Geef je app nu een naam en gebruik de raster indeling:
-    
-    ```python
-app = App("Traffic Lights controller", layout="grid")
+\--- /task \---
 
-Text(app, "Rood", grid=[0, 0])
-PushButton(app, command=red.on, text="aan", grid=[1, 0])
-PushButton(app, command=red.off, text="uit", grid=[2, 0])
-```
+\--- task \---
 
-![](images/guizero-3.png)
+Try writing your own function to do the traffic lights sequence
+
+- Use `def sequence()` and set the command to `sequence`
+- Make sure to include `from time import sleep`
+
+\--- /task \---
