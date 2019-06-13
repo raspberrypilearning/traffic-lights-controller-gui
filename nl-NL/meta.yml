@@ -4,14 +4,14 @@ hero_image: images/banner.png
 description: Create a traffic lights controller GUI (graphical user interface) using Python
 listed: false
 copyedit: false
-version: 4.1
-last_tested: 2018-11-21
+version: 4
+last_tested: 2017-01-01
 steps:
   - 
     title: Inleiding
   - 
-    title: Flash the LEDs
+    title: Laat de LED's knopperen
   - 
-    title: Create a GUI
+    title: Maak een GUI
   - 
-    title: Challenges
+    title: Uitdagingen
