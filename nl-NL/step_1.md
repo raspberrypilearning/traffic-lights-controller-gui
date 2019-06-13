@@ -28,7 +28,7 @@ sudo pip3 install guizero
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
