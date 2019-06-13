@@ -1,14 +1,14 @@
-## Flash the LEDs
+## Lass die LEDs blinken
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+Verbinde deine LEDs mit folgenden Pins:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| LED  | GPIO-Stift |
+| ---- |:----------:|
+| Rot  |     22     |
+| Gelb |     27     |
+| Grün |     17     |
 
 ![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
@@ -22,7 +22,7 @@ Open **Mu** from the main menu. Click the **REPL** icon to open the Python shell
 
 \--- task \---
 
-Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+Gib die folgenden Befehle einzeln in die Python-Shell ein und beobachte die LED:
 
 ```python
 from gpiozero import TrafficLights
@@ -36,7 +36,7 @@ lights.blink()
 
 \--- task \---
 
-Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+Versuche nun, die LED mit unterschiedlichen Geschwindigkeiten blinken zu lassen (die beiden Zahlen sind die **ein-Zeit** und die **aus-Zeit**):
 
 ```python
 lights.blink(2, 2)
@@ -48,7 +48,7 @@ lights.blink(0.1, 0.1)
 
 \--- task \---
 
-Now try flashing all three LEDs at different rates:
+Versuche nun, alle drei LEDs mit unterschiedlichen Geschwindigkeiten blinken zu lassen:
 
 ```python
 lights.red.blink(1, 1)
