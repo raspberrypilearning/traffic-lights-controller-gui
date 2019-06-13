@@ -8,7 +8,7 @@ Create a traffic lights controller GUI (graphical user interface) using Python
 
 * * *
 
-## title: What you will need
+## title: Was du brauchen wirst
 
 - Raspberry Pi computer
 - LEDs: 
@@ -28,13 +28,13 @@ sudo pip3 install guizero
 
 * * *
 
-## title: What you will learn
+## title: Was du lernen wirst
 
 - Controlling your Raspberry Pi's GPIO pins using Python
 - Using LEDs with your Raspberry Pi
 - Creating an interactive graphical user interface with Python
 
-\--- /collapse \---
+\--- /collapse\---
 
 \--- collapse \---
 
