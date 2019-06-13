@@ -1,14 +1,14 @@
-## Create a GUI
+## Maak een GUI
 
 \--- task \---
 
 Close the REPL. Now you'll write code into a file rather than directly in the shell.
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Create a GUI button to turn the red LED on:
+Maak een GUI-knop om de rode LED aan te zetten:
 
 ```python
 from guizero import App, Text, PushButton
@@ -18,7 +18,7 @@ lights = TrafficLights(22, 27, 17)
 
 app = App()
 
-PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lights.red.on, text="aan")
 
 app.display()
 ```
@@ -29,12 +29,12 @@ app.display()
 
 \--- task \---
 
-Add a text label and a second button to turn the red LED off:
+Voeg een tekstlabel en een tweede knop toe om de rode led uit te schakelen:
 
 ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+Text(app, "Rood")
+PushButton(app, command=lights.red.on, text="aan")
+PushButton(app, command=lights.red.off, text="uit")
 ```
 
 ![](images/guizero-2.png)
@@ -43,7 +43,7 @@ PushButton(app, command=lights.red.off, text="off")
 
 \--- task \---
 
-Now give your app a name, and use the grid layout:
+Geef je app nu een naam en gebruik de raster indeling:
 
 ```python
 app = App("Traffic Lights controller", layout="grid")
