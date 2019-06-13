@@ -1,4 +1,4 @@
-## Create a GUI
+## Erstelle ein GUI
 
 \--- task \---
 
@@ -8,17 +8,17 @@ Close the REPL. Now you'll write code into a file rather than directly in the sh
 
 \--- task \---
 
-Create a GUI button to turn the red LED on:
+Erstelle eine GUI-Schaltfläche, um die rote LED einzuschalten:
 
 ```python
 from guizero import App, Text, PushButton
 from gpiozero import TrafficLights
 
-lights = TrafficLights(22, 27, 17)
+lampen = TrafficLights(22, 27, 17)
 
 app = App()
 
-PushButton(app, command=lights.red.on, text="on")
+PushButton(app, command=lampen.red.on, text="ein")
 
 app.display()
 ```
@@ -29,12 +29,12 @@ app.display()
 
 \--- task \---
 
-Add a text label and a second button to turn the red LED off:
+Füge eine Textbeschriftung und eine zweite Schaltfläche hinzu, um die rote LED auszuschalten:
 
 ```python
-Text(app, "Red")
-PushButton(app, command=lights.red.on, text="on")
-PushButton(app, command=lights.red.off, text="off")
+Text(app, "Rot")
+PushButton(app, command=lampen.red.on, text="ein")
+PushButton(app, command=lampen.red.off, text="aus")
 ```
 
 ![](images/guizero-2.png)
@@ -43,7 +43,7 @@ PushButton(app, command=lights.red.off, text="off")
 
 \--- task \---
 
-Now give your app a name, and use the grid layout:
+Gib deiner App jetzt einen Namen und verwende das Rasterlayout:
 
 ```python
 app = App("Traffic Lights controller", layout="grid")
