@@ -1,8 +1,8 @@
-## Challenges
+## चुनौतियाँ
 
 \--- task \---
 
-Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+तीनों एल. ई. डी. को चालू/बंद करने के लिए बटन जोड़ने की कोशिश करें, यह सुनिश्चित करें कि वे ग्रिड में ठीक से संरेखित हो
 
 ![](images/guizero-4.png)
 
@@ -10,21 +10,21 @@ Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly i
 
 \--- task \---
 
-Try adding a blink button for each LED
+प्रत्येक एल. ई. डी. के लिए ब्लिंक बटन जोड़ने का प्रयास करें
 
 \--- /task \---
 
 \--- task \---
 
-Try adding buttons for all on / all off
+सभी चालू/सभी बंद करने के लिए बटन जोड़ने का प्रयास करें
 
 \--- /task \---
 
 \--- task \---
 
-Try writing your own function to do the traffic lights sequence
+ट्रैफिक लाइट अनुक्रम के लिए अपना स्वयं का फ़ंक्शन लिखने का प्रयास करें
 
-- Use `def sequence()` and set the command to `sequence`
-- Make sure to include `from time import sleep`
+- `def sequence()` का उपयोग करें और आदेश को `sequence` सेट करें
+- सुनिश्चित करें कि `from time import sleep` शामिल हो
 
 \--- /task \---
