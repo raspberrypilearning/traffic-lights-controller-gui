@@ -1,14 +1,14 @@
-## Flash the LEDs
+## एल. ई. डी. को जलाये
 
 \--- task \---
 
-Connect your LEDs to the following pins:
+अपने एल. ई. डी. को निम्नलिखित पिन से कनेक्ट करें:
 
-| LED   | GPIO pin |
-| ----- |:--------:|
-| Red   |    22    |
-| Amber |    27    |
-| Green |    17    |
+| एल. ई. डी. | GPIO पिन |
+| ---------- |:--------:|
+| लाल        |    22    |
+| पीला       |    27    |
+| हरा        |    17    |
 
 ![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
 
@@ -22,7 +22,7 @@ Open **Mu** from the main menu. Click the **REPL** icon to open the Python shell
 
 \--- task \---
 
-Enter the following commands, one-by-one, into the Python shell, and observe the LED:
+Python शेल में निम्न आदेशों को एक-एक करके दर्ज करें, और एलईडी का निरीक्षण करें:
 
 ```python
 from gpiozero import TrafficLights
@@ -36,7 +36,7 @@ lights.blink()
 
 \--- task \---
 
-Now try blinking the LED at different speeds (the two numbers are **on time** and **off time**):
+अब अलग-अलग गति पर एल. ई. डी. को झिलमिलाने का प्रयास करें (दो संख्याएं हैं **on time** और **off time**):
 
 ```python
 lights.blink(2, 2)
@@ -48,7 +48,7 @@ lights.blink(0.1, 0.1)
 
 \--- task \---
 
-Now try flashing all three LEDs at different rates:
+अब विभिन्न दरों पर तीनों एल. ई. डी. को जलाने की कोशिश करें:
 
 ```python
 lights.red.blink(1, 1)
