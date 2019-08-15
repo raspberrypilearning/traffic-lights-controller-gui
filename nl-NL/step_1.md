@@ -1,6 +1,6 @@
 ## Inleiding
 
-Create a traffic lights controller GUI (graphical user interface) using Python
+Maak een verkeerslicht controller GUI (grafische gebruikersinterface) met Python
 
 ![](images/guizero-4.png)
 
@@ -12,10 +12,10 @@ Create a traffic lights controller GUI (graphical user interface) using Python
 
 - Raspberry Pi computer
 - LEDs: 
-    - pi-stop traffic light board
-    - or 3x LEDs and resistors
+    - pi-verkeerslicht bord
+    - of 3 LED's en weerstanden
 
-You'll need to install Mu and guizero. Open a Terminal window and type the following command:
+Je moet Mu en guizero installeren. Open een terminalvenster en voer de volgende opdracht in:
 
 ```bash
 sudo apt install mu-editor
@@ -30,9 +30,9 @@ sudo pip3 install guizero
 
 ## title: Wat ga je leren
 
-- Controlling your Raspberry Pi's GPIO pins using Python
-- Using LEDs with your Raspberry Pi
-- Creating an interactive graphical user interface with Python
+- De GPIO-pinnen van je Raspberry Pi aansturen met Python
+- Het gebruik van LEDs met jouw Raspberry Pi
+- Een interactieve grafische gebruikersinterface maken met Python
 
 \--- /collapse \---
 
@@ -40,11 +40,11 @@ sudo pip3 install guizero
 
 * * *
 
-## title: Information for Jam organisers
+## title: Informatie voor Jam organisatoren
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-GUI.pdf) is available. Please observe any notes on this page before printing.
+Als je dit project wilt afdrukken, is er een [PDF-versie](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Traffic-Lights-GUI.pdf) beschikbaar. Let op de opmerkingen op deze pagina voordat je gaat afdrukken.
 
 \--- /no-print \---
 
