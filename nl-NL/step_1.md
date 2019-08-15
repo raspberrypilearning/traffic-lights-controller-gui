@@ -8,7 +8,7 @@ Maak een verkeerslicht controller GUI (grafische gebruikersinterface) met Python
 
 * * *
 
-## title: What you will need
+## title: Wat heb je nodig
 
 - Raspberry Pi computer
 - LEDs: 
