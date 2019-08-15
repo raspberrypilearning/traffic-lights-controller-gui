@@ -1,4 +1,4 @@
-## Laat de LED's knopperen
+## Laat de LED's knipperen
 
 \--- task \---
 
@@ -10,13 +10,13 @@ Verbind je LED's met de volgende pinnen:
 | Oranje/geel |    27    |
 | Groen       |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![pi stop verkeerslicht verbonden met gpio 22,27,17 en massa (ground)](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
 
 \--- task \---
 
-Open **Mu** from the main menu. Click the **REPL** icon to open the Python shell.
+Open **Mu** vanuit het hoofdmenu. Klik op het **REPL** pictogram om de Python shell te openen.
 
 \--- /task \---
 
