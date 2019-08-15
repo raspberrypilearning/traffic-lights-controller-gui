@@ -1,11 +1,11 @@
 ---
-title: Traffic Lights Controller GUI
+title: Maak een grafische interface voor een verkeerslichtcontroller
 hero_image: images/banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using Python
+description: Maak een verkeerslicht controller GUI (grafische gebruikersinterface) met Python
 listed: false
 copyedit: false
 version: 4
-last_tested: 2017-01-01
+last_tested: 2018-11-21
 steps:
   - 
     title: Inleiding
