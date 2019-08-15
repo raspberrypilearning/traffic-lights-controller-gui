@@ -1,7 +1,7 @@
 ---
-title: Traffic Lights Controller GUI
+title: رابط کاربر گرافیکی برای کنترل چراغ راهنمایی
 hero_image: images/banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using Python
+description: ایجاد یک GUI (رابط گرافیکی کاربر) برای کنترل چراغ راهنمایی با استفاده از پایتون
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: مقدمه
   - 
-    title: Flash the LEDs
+    title: LEDها را خاموش و روشن کنید
   - 
-    title: Create a GUI
+    title: ایجاد یک رابط کاربری گرافیکی
   - 
-    title: Challenges
+    title: چالش ها
