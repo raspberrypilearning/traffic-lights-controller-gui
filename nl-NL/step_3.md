@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Close the REPL. Now you'll write code into a file rather than directly in the shell.
+Sluit de REPL. Je gaat nu code in een bestand schrijven in plaats van direct in de shell.
 
 \---/task\---
 
