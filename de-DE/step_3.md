@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Close the REPL. Now you'll write code into a file rather than directly in the shell.
+Schließe die REPL. Nun schreibst du deinen Code in eine Datei statt direkt in die Shell.
 
 \--- /task \---
 
@@ -46,11 +46,11 @@ PushButton(app, command=lampen.red.off, text="aus")
 Gib deiner App jetzt einen Namen und verwende das Rasterlayout:
 
 ```python
-app = App("Traffic Lights controller", layout="grid")
+app = App ("Ampelsteuerung", layout = "grid")
 
-Text(app, "Red", grid=[0, 0])
-PushButton(app, command=lights.red.on, text="on", grid=[1, 0])
-PushButton(app, command=lights.red.off, text="off", grid=[2, 0])
+Text(app, "Rot", grid = [0, 0])
+PushButton (app, Befehl = Lichter.red.on, text = "An", grid = [1, 0])
+PushButton (app, command = Lichter.red.off, text ="Aus", grid = [2, 0])
 ```
 
 ![](images/guizero-3.png)
