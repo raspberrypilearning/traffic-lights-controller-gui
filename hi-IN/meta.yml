@@ -1,7 +1,7 @@
 ---
-title: Traffic Lights Controller GUI
+title: एक ट्रैफिक लाइट्स नियंत्रक GUI (ग्राफिकल यूजर इंटरफ़ेस या चित्र के माध्यम से उपयोग करता है) बनाओ
 hero_image: images/banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using Python
+description: एक ट्रैफिक लाइट नियंत्रक बनाओ GUI (ग्राफिकल यूजर इंटरफ़ेस या चित्र के माध्यम से उपयोग करता है) पाइथन प्रोग्रामिंग भाषा का उपयोग करते हुए
 listed: false
 copyedit: false
 version: 4.1
