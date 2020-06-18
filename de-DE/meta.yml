@@ -1,7 +1,7 @@
 ---
-title: Traffic Lights Controller GUI
+title: Ampel Steuerung GUI
 hero_image: images/banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using Python
+description: Erstelle eine Ampel-Steuerungs-GUI (grafische Benutzeroberfläche) mit Python
 listed: false
 copyedit: false
 version: 4
