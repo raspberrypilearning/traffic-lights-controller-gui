@@ -10,13 +10,13 @@
 | पीला       |    27    |
 | हरा        |    17    |
 
-![pi stop connected to gpio 22,27,17 and ground](images/Traffic-Lights-Diagram.png)
+![pi gpio 22,27,17 से संपर्क छोड़ दिया है और जमीन से भी](images/Traffic-Lights-Diagram.png)
 
 \--- /task \---
 
 \--- task \---
 
-Open **Mu** from the main menu. Click the **REPL** icon to open the Python shell.
+मेन मेन्यू से **Mu** खोलें Python shell खोलने के लिए **REPL** आइकॉन पर क्लिक करे
 
 \--- /task \---
 
