@@ -1,17 +1,17 @@
 ---
-title: Traffic Lights Controller GUI
-hero_image: images / banner.png
-description: Create a traffic lights controller GUI (graphical user interface) using Python
+title: Contrôleur de feux de circulation
+hero_image: images/banner.png
+description: Créer une interface de contrôleur de feux de circulation GUI (interface utilisateur graphique) en utilisant Python
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: introduction
+    title: Introduction
   - 
-    title: Flash the LEDs
+    title: Fais clignoter les LED
   - 
-    title: Create a GUI
+    title: Créer une interface graphique
   - 
-    title: Challenges
+    title: Défis
