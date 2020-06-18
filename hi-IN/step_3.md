@@ -2,7 +2,7 @@
 
 \--- task \---
 
-Close the REPL. Now you'll write code into a file rather than directly in the shell.
+REPL को बंद करें। अब आप सीधे शेल के बजाय फाइल में कोड लिखेंगे।
 
 \--- /task \---
 
