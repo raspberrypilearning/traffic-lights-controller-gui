@@ -1,8 +1,8 @@
-## Challenges
+## Défis
 
 \--- task \---
 
-Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly in the grid
+Essaie d'ajouter des boutons on/off pour les 3 LEDs, en t'assurant qu'ils sont correctement alignés dans la grille
 
 ![](images/guizero-4.png)
 
@@ -10,21 +10,21 @@ Try adding on/off buttons for all 3 LEDs, making sure they're aligned properly i
 
 \--- task \---
 
-Try adding a blink button for each LED
+Essaie d'ajouter un bouton de clignotement pour chaque LED
 
 \--- /task \---
 
 \--- task \---
 
-Try adding buttons for all on / all off
+Essaie d'ajouter des boutons pour tout allumer / tout éteindre
 
 \--- /task \---
 
 \--- task \---
 
-Try writing your own function to do the traffic lights sequence
+Essaie d'écrire ta propre fonction pour faire la séquence des feux de signalisation
 
-- Use `def sequence()` and set the command to `sequence`
-- Make sure to include `from time import sleep`
+- Utilise ` def sequence()` et règle la commande avec `sequence`
+- Assure-toi d'inclure `from time import sleep`
 
 \--- /task \---
