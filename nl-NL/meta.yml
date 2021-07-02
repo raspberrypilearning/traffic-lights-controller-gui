@@ -4,7 +4,7 @@ hero_image: images/banner.png
 description: Maak een verkeerslicht controller GUI (grafische gebruikersinterface) met Python
 listed: false
 copyedit: false
-version: 4
+version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
