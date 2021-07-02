@@ -25,13 +25,15 @@ Probeer knoppen toe te voegen om alles tegelijkertijd aan/uit/te laten knipperen
 Probeer je eigen functie te schrijven om een verkeerslicht te maken
 
 - Gebruik `def sequence ()` en stel het commando in op `sequence` (reeks)
-- Zorg ervoor dat je `from time import sleep` toevoegd
+- Zorg ervoor dat je `from time import sleep` toevoegt
 
 --- /task ---
 
+***
+Dit project werd vertaald door vrijwilligers:
 
-**Door de community geleverde vertaling**
+Robert-Jan Kempenaar
+Coen Warries
+Sanneke van der Meer
 
-Dit project werd vertaald door **Robert-Jan Kempenaar** en gecontroleerd door **Coen Warries**.
-
-Onze geweldige vertalers helpen ons om kinderen over de hele wereld de kans te geven te leren coderen. Jij kunt ons helpen nog meer kinderen te bereiken door onze projecten te vertalen - lees meer op [rpf.io/translators](https://rpf.io/translators).
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
