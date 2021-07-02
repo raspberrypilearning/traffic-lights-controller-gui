@@ -25,6 +25,6 @@ Probeer knoppen toe te voegen om alles tegelijkertijd aan/uit/te laten knipperen
 Probeer je eigen functie te schrijven om een verkeerslicht te maken
 
 - Gebruik `def sequence ()` en stel het commando in op `sequence` (reeks)
-- Zorg ervoor dat je `from time import sleep` toevoegd
+- Zorg ervoor dat je `from time import sleep` toevoegt
 
 \--- /task \---
