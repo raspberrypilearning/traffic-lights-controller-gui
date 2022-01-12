@@ -1,13 +1,16 @@
 ---
 title: Maak een grafische interface voor een verkeerslichtcontroller
 hero_image: images/banner.png
-description: Maak een verkeerslicht controller GUI (grafische gebruikersinterface) met Python
+description: Maak een verkeerslicht controller GUI (grafische gebruikersinterface)
+  met Python
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
-  - title: Inleiding
-  - title: Laat de LED's knipperen
-  - title: Maak een GUI
-  - title: Uitdagingen
+- title: Inleiding
+  completion: engaged
+- title: Laat de LED's knipperen
+- title: Maak een GUI
+  completion: internal
+- title: Uitdagingen
