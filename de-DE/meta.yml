@@ -1,13 +1,14 @@
 ---
 title: Ampel Steuerung GUI
 hero_image: images/banner.png
-description: Erstelle eine Ampel-Steuerungs-GUI (grafische Benutzeroberfläche) mit Python
+description: Erstelle eine Ampel-Steuerungs-GUI (grafische Benutzeroberfläche) mit
+  Python
 listed: false
 copyedit: false
 version: 4
 last_tested: 2017-01-01
 steps:
-  - title: Einleitung
-  - title: Lass die LEDs blinken
-  - title: Erstelle ein GUI
-  - title: Herausforderungen
+- title: Einleitung
+- title: Lass die LEDs blinken
+- title: Erstelle ein GUI
+- title: Herausforderungen
