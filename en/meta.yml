@@ -9,8 +9,6 @@ version: 4.1
 last_tested: 2018-11-21
 steps:
 - title: Introduction
-  completion: engaged
 - title: Flash the LEDs
 - title: Create a GUI
-  completion: internal
 - title: Challenges
